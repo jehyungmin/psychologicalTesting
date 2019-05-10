@@ -1,0 +1,30 @@
+PODS:
+  - React (0.59.8):
+    - React/Core (= 0.59.8)
+  - React/Core (0.59.8):
+    - yoga (= 0.59.8.React)
+  - RNGestureHandler (1.2.1):
+    - React
+  - yoga (0.59.8.React)
+
+DEPENDENCIES:
+  - React (from `../node_modules/react-native`)
+  - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: "../node_modules/react-native"
+  RNGestureHandler:
+    :path: "../node_modules/react-native-gesture-handler"
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  React: 76e6aa2b87d05eb6cccb6926d72685c9a07df152
+  RNGestureHandler: aea90f0ad8e35fec23438db6fc3ad79be58bb734
+  yoga: 92b2102c3d373d1a790db4ab761d2b0ffc634f64
+
+PODFILE CHECKSUM: 7740232e79cc6181c67a013b7b69d6005bb80736
+
+COCOAPODS: 1.6.1
